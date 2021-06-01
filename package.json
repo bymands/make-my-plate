@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --port 9090 --mode=development --open --hot",
     "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --env=jsdom"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,16 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
+    "@testing-library/react": "^11.2.7",
+    "babel-jest": "^27.0.2",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.24.0",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.0.3",
+    "prettier": "2.3.0",
+    "react-test-renderer": "^17.0.2",
     "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",

@@ -1,6 +1,26 @@
-# compiled output
-/dist
+.DS_Store
+node_modules
+coverage
+build
+dist
 
-# Dependency directories
-node_modules/
+# local env files
+.env.local
+.env.*.local
 
+.package-lock.json
+
+# Log files
+npm-debug.log*
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+/__tests__/
